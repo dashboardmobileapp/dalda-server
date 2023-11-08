@@ -153,7 +153,7 @@ cron.schedule("0 8 */3 * *", async () => {
 });
 
 //PORT
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 75;
 
 //run listen
 app.listen(PORT, () => {
