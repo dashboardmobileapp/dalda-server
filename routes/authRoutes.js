@@ -32,7 +32,7 @@ router.delete("/delete/:U_id", requireSignIn, isAdmin, deleteUserController);
 router.put("/update/:U_id", updateUserController);
 
 //get all users
-router.get("/get-users", requireSignIn, isAdmin, getUserController);
+router.get("/get-users", getUserController);
 
 router.get("/get-departments", requireSignIn, getUserDepartmentController);
 
